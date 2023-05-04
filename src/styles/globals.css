@@ -98,3 +98,13 @@ meter {
 :where(dialog:modal) {
   all: revert;
 }
+
+:root {
+  --bg-primary: #4b1e3d;
+  --bg-secondary: #f8edf4;
+  --text-color: #4b1e3d;
+  --darker-text: #240f1e;
+  --lighter-text: #803367;
+  --max-width: 480px;
+  --default-font: 'Raleway', sans-serif;
+}

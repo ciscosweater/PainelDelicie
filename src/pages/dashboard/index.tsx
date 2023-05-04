@@ -1,6 +1,6 @@
 import Header from "@/components/header";
 import styles from "./dashboard.module.css";
-import DashboardOrder from "@/components/dashboardorder";
+import Pedido from "@/components/pedido";
 
 export default function Dashboard() {
     return (
@@ -8,7 +8,7 @@ export default function Dashboard() {
             <Header />
             <h1 className={styles.title}>Pedidos</h1>
             <div className={styles.divider} />
-            <DashboardOrder />
+            <Pedido />
         </div>
     );
 };

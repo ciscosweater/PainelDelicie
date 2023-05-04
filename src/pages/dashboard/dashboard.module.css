@@ -10,14 +10,15 @@
 .title {
     font-size: 1.3em;
     color: #4b1e3d;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--default-font);
     font-weight: bold;
     margin: 20px 0 15px;
 }
 
 .divider {
     background-color: #f0dbea;
-    height: 2px;
+    height: 1px;
     border-radius: 20px;
     width: 80%;
+    max-width: var(--max-width);
 }
