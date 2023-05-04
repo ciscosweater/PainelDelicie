@@ -1,0 +1,41 @@
+.container {
+    height: 75px;
+    width: 100%;
+    background-color: #4b1e3d;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.header {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 60px;
+    aspect-ratio: 1/1;
+}
+
+.button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #4b1e3d;
+    transition: 0.2s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: #6d2c59;
+}
+
+.buttonicon {
+    width: 30px;
+    height: 30px;
+}
